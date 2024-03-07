@@ -336,6 +336,135 @@ select {
 
 /* Resume CSS Starts */
 #resume{
-    padding-top: 131px;
+    padding: 131px 0;
+
+}
+.resumeWrapper .btnArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 71px;
+}
+.resumeWrapper .btnArea a i{
+    margin-right: 10px;
+}
+.resumeContent{
+    margin-top: 113px;
+}
+.resumeContent h3{
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--clr-dark-02);
+    margin-bottom: 30px;
+}
+
+
+.educationWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.resumeItem{
+    padding-bottom: 30px;
+    border-bottom: solid var(--clr-dark-05) 1px;
+}
+
+.resumeItem:last-child{
+    border: none;
+}
+
+.resumeItem h4{
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--clr-dark-02);
+    margin-bottom: 10px;
+}
+
+.resumeItem h5{
+    font-family: var(--ff-primary);
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--clr-dark-03);
+    margin-bottom: 20px;
+}
+
+.resumeItem p{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--clr-dark-03);
+    width: 511px;
 }
 /* Resume CSS Ends */
+/* Footer CSS Starts */
+footer{
+    padding: 130px 0;
+    background: var(--clr-secondary);
+}
+
+.footerWrapper h2{
+    font-family: var(--ff-primary);
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--clr-dark-01);
+}
+
+.footerText p{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--clr-dark-02);
+    margin: 20px 0 30px 0;
+    width: 562px;
+}
+
+.footerText ul{
+    display: flex;
+    gap: 24px;
+}
+
+.footerText ul a{
+    color: var(--clr-primary);
+    font-size: 24px;
+}
+
+.footerForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 28px;
+}
+
+.footerForm input{
+    width: 461px;
+    height: 64px;
+    border: 0;
+}
+
+.footerForm input::placeholder{
+    padding-left: 30px;
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footerForm textarea{
+    width: 461px;
+    height: 180px;
+    border: none;
+}
+
+.footerForm textarea::placeholder{
+    padding-left: 30px;
+    padding-top: 18px;
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+/* Footer CSS Ends */
